@@ -11,7 +11,7 @@ public class Fibonacci implements Generator<Integer> {
     public static void main(String[] args) {
         Fibonacci gen = new Fibonacci();
         for (int i = 0; i < 18; i++) {
-            System.out.println(gen.next() + " ");
+            System.out.print(gen.next() + " ");
         }
     }
 }
